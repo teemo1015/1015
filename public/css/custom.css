@@ -1,0 +1,48 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+.menu-link {
+    display: block;
+    line-height: 22px;
+    padding: 14px 10px;
+    color: #444;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+}
+.sub-menu-container .menu-item > .menu-link {
+    position: relative;
+    padding: 11px 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #444;
+    letter-spacing: 0;
+    font-family: "Lato", sans-serif;
+}
+.content-wrap {
+    position: relative;
+    padding: 80px 0;
+    overflow: hidden;
+}
+.col-mb-50 {
+    --col-mb: 50px;
+}
+p,
+pre,
+ul,
+ol,
+dl,
+dd,
+blockquote,
+address,
+table,
+fieldset,
+form {
+    margin-bottom: 0px;
+}
